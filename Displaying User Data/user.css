@@ -1,0 +1,40 @@
+#display {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: auto;
+}
+
+#display>div {
+    padding: 0px;
+    margin: 0px;
+    border: solid 2px rgb(0, 68, 255);
+    padding-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#display>div>img {
+    width: 100%;
+}  
+#display>div>h3,p{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.btn{
+width: 20%;
+margin: auto;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.btn>button{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
