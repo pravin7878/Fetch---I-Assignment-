@@ -8,14 +8,7 @@ btn.addEventListener('click',()=>{
     .then((res)=>{
         res.json().then((data)=>{
             console.log(data)
-            if(inp.value == data.Title ){
-                console.log('hello')
                 displaydata(data)
-            }
-            else{
-                container.innerText = `data not found 
-                search right movie titel`
-            }
         })
     })
     .catch((err)=>{
