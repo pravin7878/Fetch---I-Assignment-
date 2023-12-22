@@ -1,0 +1,37 @@
+header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin: 30px 0px;
+  
+}
+header>input{
+    padding: 6px 20px;
+    background-color: rgb(195, 189, 189);
+    border-radius: 10px
+}
+header>button{
+   background-color: rgb(195, 189, 189);
+   padding: 6px 20px;
+    border-radius: 10px
+    
+}
+header>button>svg{
+    color: white;
+}
+#container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+#container>h2,h4,p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Guardians of the Galaxy Vol. 2 */
